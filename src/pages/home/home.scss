@@ -1,0 +1,56 @@
+@import 'dist/shadecycle.scss';
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+h1 {
+    color: hotpink;
+    font-size: 10em;
+    font-family: 'Lobster', cursive;
+    margin: 10px;
+    padding: 10px;
+    text-shadow: shade-cycle(15, 1, 1, cyan, hotpink), shade-cycle(15, -1, -1, blue, darkblue);
+}
+
+.example {
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 3em;
+  font-family: 'Lobster', cursive;
+}
+
+h2 {
+  font-size: 4em;
+}
+
+p {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+textarea.form-control {
+  height: 80px;
+  font-family: Courier New, Courier, monospace;
+  background: #333 !important;
+  color: #eee;
+}
+
+#ex0 {
+  text-shadow: shade-cycle(10, 0, 1, green, #333);
+}
+
+#ex1 {
+  text-shadow: shade-cycle(15, 1, 1, cyan, hotpink);
+}
+
+#ex2 {
+  text-shadow: shade-cycle(10, 5, 5, red, blue);
+}
+
+#ex3 {
+  @include shade-cycle-animation(15, -1, 1, green, yellow, 14, 1000);
+}
+
+#ex4 {
+  text-shadow: shade-cycle(10, 1, 1, purple, darken(purple, 10%)), shade-cycle(10, -1, -1, orangered, darken(orangered, 10%));
+}

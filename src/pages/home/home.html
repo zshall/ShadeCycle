@@ -1,0 +1,21 @@
+<template>
+  <require from="pages/home/home.css"></require>
+  <h1>ShadeCycle</h1>
+  <h2>Gradient text shadows in SASS!</h2>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p>Examples:</p>
+      </div>
+    </div>
+    <div class="row example" repeat.for="ex of examples">
+      <div class="col-md-4">
+        <h3 id.bind="ex.id">${ex.text}</h3>
+      </div>
+      <div class="col-md-8">
+        <textarea class="form-control" value.bind="ex.code" readonly></textarea>
+      </div>
+    </div>
+  </div>
+</template>

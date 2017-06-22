@@ -3,21 +3,22 @@
   "description": "Gradient text shadow functions and mixins in SASS",
   "version": "0.1.0",
   "repository": {
-    "type": "???",
-    "url": "???"
+    "type": "git",
+    "url": "https://github.com/zshall/ShadeCycle.git"
   },
+  "files": [ "dist" ],
   "license": "MIT",
   "dependencies": {
-    "aurelia-animator-css": "^1.0.1",
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+  	"aurelia-animator-css": "^1.0.1",
     "aurelia-bootstrapper": "^2.1.0",
     "bluebird": "^3.4.1",
     "bootstrap": "^3.3.7",
     "jquery": "^2.2.4",
     "requirejs": "^2.3.2",
-    "text": "github:requirejs/text#latest"
-  },
-  "peerDependencies": {},
-  "devDependencies": {
+    "text": "github:requirejs/text#latest",
     "aurelia-cli": "^0.27.0",
     "aurelia-testing": "^1.0.0-beta.2.0.1",
     "aurelia-tools": "^1.0.0",

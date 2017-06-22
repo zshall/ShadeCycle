@@ -2,6 +2,8 @@
 
 Gradient text shadow functions and mixins in SASS.
 
+[Demo](https://zshall.github.io/ShadeCycle/)
+
 ## Getting Started
 
 `npm install shade-cycle`

@@ -3,8 +3,9 @@ export class Home {
         {
             id: 'ex0',
             text: 'Getting Started',
-            code: `/* Simply include the SCSS file! You're now ready to go. */
-@import 'dist/shadecycle.scss';`
+            code: `npm install shade-cycle
+/* Now simply include the SCSS file! You're now ready to go. */
+@import 'path/to/node_modules/shade-cycle/dist/shadecycle.scss';`
         },
         {
             id: 'ex1',

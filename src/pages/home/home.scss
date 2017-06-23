@@ -50,7 +50,7 @@ textarea.form-control {
 }
 
 #ex3 {
-  @include shade-cycle-animation(15, -1, 1, green, yellow, 14, 1000);
+  @include shade-cycle-animation(15, -1, 1, green, yellow, 10, 3000);
 }
 
 #ex4 {

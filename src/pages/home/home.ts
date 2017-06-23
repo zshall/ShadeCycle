@@ -25,7 +25,7 @@ export class Home {
             id: 'ex3',
             text: 'My cool title',
             code: `#ex3 {
-  @include shade-cycle-animation(15, -1, 1, green, yellow, 14, 1000);
+  @include shade-cycle-animation(15, -1, 1, green, yellow, 10, 3000);
 }`
         },
         {

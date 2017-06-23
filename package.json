@@ -1,7 +1,7 @@
 {
   "name": "shade-cycle",
   "description": "Gradient text shadow functions and mixins in SASS",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/zshall/ShadeCycle.git"

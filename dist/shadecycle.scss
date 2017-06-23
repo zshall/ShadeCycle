@@ -1,6 +1,6 @@
 /**
 ShadeCycle
-v0.1.0
+v0.1.1
 
 Distributed under the MIT License
 
@@ -43,12 +43,13 @@ SOFTWARE.
 @mixin shade-cycle-animation($steps, $offsetX, $offsetY, $startColor, $endColor, $repeat, $milliseconds) {
   $animation-name: unique-id();
   $time: unquote($milliseconds + "ms");
-  animation: $animation-name $time steps($steps, end) infinite;
+  animation: $animation-name $time steps($repeat, end) infinite;
   
   @keyframes #{$animation-name} {
-    @for $i from 0 through $steps {
-      #{$i / $steps * 100}% {
-          text-shadow: shade-cycle($steps, $offsetX, $offsetY, $startColor, $endColor, $repeat, if($i < 50, $i, $i - 50));
+    @for $i from 0 through $repeat + 1 {
+      @warn ($i / ($repeat + 1) * 100) + "%";
+      #{$i / ($repeat + 1) * 100}% {
+          text-shadow: shade-cycle($steps, $offsetX, $offsetY, $startColor, $endColor, $repeat, $i);
       }
     }
   }

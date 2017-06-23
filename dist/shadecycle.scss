@@ -1,6 +1,6 @@
 /**
 ShadeCycle
-v0.1.0
+v0.1.1
 
 Distributed under the MIT License
 
@@ -46,8 +46,9 @@ SOFTWARE.
   animation: $animation-name $time steps($repeat, end) infinite;
   
   @keyframes #{$animation-name} {
-    @for $i from 0 through $repeat {
-      #{$i / $repeat * 100}% {
+    @for $i from 0 through $repeat + 1 {
+      @warn ($i / ($repeat + 1) * 100) + "%";
+      #{$i / ($repeat + 1) * 100}% {
           text-shadow: shade-cycle($steps, $offsetX, $offsetY, $startColor, $endColor, $repeat, $i);
       }
     }

@@ -52,7 +52,7 @@ All parameters are required here. The one that differs is the `milliseconds` par
 
 * `milliseconds`: Length of the animation in milliseconds before the it repeats.
 
-A known issue with the animation is that if the offset and layers aren't set close to each other the keyframes that are generated aren't very smooth.
+~~A known issue with the animation is that if the offset and layers aren't set close to each other the keyframes that are generated aren't very smooth.~~ Fixed! Update to version 0.1.1. You can now use any number of repeats up to the number of layers and it'll be smooth.
 
 ## Contributing
 

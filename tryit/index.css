@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Bellefair|Droid+Sans+Mono|Gloria+Hallelujah|Inconsolata|Indie+Flower|Lobster|Merriweather|Open+Sans|Pacifico|Righteous|Roboto|Roboto+Mono|Shrikhand|VT323');
+
+body {
+    color: #eee;
+    background: #111;
+    font-family: Open Sans, sans-serif;
+}
+
+#out {
+    position: absolute;
+    bottom: 0;
+    min-height: 20vh;
+    overflow: scroll;
+    width: 100%;
+}
+
+#generated, #sass {
+    display: block;
+    height: 10vh;
+    border-top: 2px solid #eee;
+    padding: 10px;
+    overflow: scroll;
+}
+
+#generated {
+    background-color: #444;
+}
+
+#sass {
+    background-color: #666;
+}
+
+#title {
+    font-size: 10vw;
+    text-align: center;
+    margin-right: 255px;
+}
+
+#shadeCycle {
+    font-family: 'Lobster';
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #00ffff, 2px 2px 0 #12f4fa, 3px 3px 0 #24eaf4, 4px 4px 0 #37dfef, 5px 5px 0 #49d4ea, 6px 6px 0 #5bc9e4, 7px 7px 0 #6dbfdf, 8px 8px 0 #80b4da, 9px 9px 0 #92a9d4, 10px 10px 0 #a49fcf, 11px 11px 0 #b694c9, 12px 12px 0 #c889c4, 13px 13px 0 #db7ebf, 14px 14px 0 #ed74b9;
+}

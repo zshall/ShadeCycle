@@ -6,17 +6,18 @@
     "type": "git",
     "url": "https://github.com/zshall/ShadeCycle.git"
   },
-  "files": [ "dist" ],
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {},
   "devDependencies": {
-  	"aurelia-animator-css": "^1.0.1",
+    "aurelia-animator-css": "^1.0.1",
     "aurelia-bootstrapper": "^2.1.0",
     "bluebird": "^3.4.1",
     "bootstrap": "^3.3.7",
-    "jquery": "^2.2.4",
+    "jquery": "^3.0.0",
     "requirejs": "^2.3.2",
     "text": "github:requirejs/text#latest",
     "aurelia-cli": "^0.27.0",
@@ -40,6 +41,6 @@
     "tslint": "^3.11.0",
     "typescript": ">=1.9.0-dev || ^2.0.0",
     "@types/node": "^6.0.45",
-    "gulp-sass": "^2.3.2"
+    "gulp-sass": "^3.1.0"
   }
 }

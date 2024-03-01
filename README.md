@@ -1,5 +1,7 @@
 # ShadeCycle
 
+[![Join us on Slack!](https://img.shields.io/badge/join_the_community-on_slack-blue)](https://join.slack.com/t/greenhillplaza/shared_invite/zt-2dq8mx6sm-3YnobHETTmxUNE02TOSPRg)
+
 Gradient text shadow functions and mixins in SASS.
 
 [Demo](https://zshall.github.io/ShadeCycle/)
